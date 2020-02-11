@@ -1,5 +1,8 @@
 #!/bin/sh
+# Show commands and exit on error
+set -ex
 
+# 
 # Homebrew Script for RCH OSX 
 # https://formulae.brew.sh
 echo "Go visit https://brew.sh"
@@ -13,8 +16,9 @@ fi
 echo "Updating brew..."
 brew update
 
-# Programming Languages
+# Casks
 ##  java - installs latest openjdk version	
+## Docker Desktop von Docker Hub direkt heruntergeladen - hat irgendwie nicht so richtig funktioniert
 CASKS=(
 	sublime-text
 	java
