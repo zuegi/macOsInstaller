@@ -26,6 +26,7 @@ CASKS=(
 	slack
 	google-chrome
 	tunnelblick
+	dbvisualizer
 )
 echo "Installing cask apps..."
 brew cask install ${CASKS[@]}
@@ -46,5 +47,6 @@ echo "Cleaning up ..."
 brew cleanup
 
 #sudo brew services start openvpn
-echo "export PATH=/usr/local/sbin:\$PATH" > ~/.zshrc
+echo "# .zshrc file" > ~/.zshrc
+echo "export PATH=/usr/local/sbin:\$PATH" >> ~/.zshrc
 
