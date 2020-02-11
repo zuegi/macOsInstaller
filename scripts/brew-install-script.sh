@@ -33,6 +33,7 @@ brew cask install ${CASKS[@]}
 
 # Dev Tools
 DEVTOOLS=(
+	mas
 	maven
 	git
 	docker
