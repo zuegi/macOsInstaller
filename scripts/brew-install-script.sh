@@ -46,6 +46,15 @@ brew install ${DEVTOOLS[@]}
 echo "Cleaning up ..."
 brew cleanup
 
+brew tap microsoft/mssql-release https://github.com/Microsoft/homebrew-mssql-release
+ACCEPT_EULA=y brew install msodbcsql mssql-tools
+
+# manuell Citrix Workspace installieren 
+# https://www.citrix.com/de-de/downloads/workspace-app/mac/workspace-app-for-mac-latest.html
+
+# manuell Jabra installieren
+# https://www.jabra.com.de/software-and-services/jabra-direct
+
 #sudo brew services start openvpn
 echo "# .zshrc file" > ~/.zshrc
 echo "export PATH=/usr/local/sbin:\$PATH" >> ~/.zshrc
