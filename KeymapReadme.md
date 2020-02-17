@@ -18,5 +18,9 @@ Option Command O 	Suche / Gehe zu Symbol
 
 Command Pfeil down 	Jump to Source (F4 funktioniert hier leider nicht)
 
+Option Command L 	Reformat Code 	
+
+Command Shift A 	Actions	
+
 # MacBook Pro
 Control Command	Q	Sperrt den Bildschirm

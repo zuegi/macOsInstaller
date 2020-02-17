@@ -8,7 +8,8 @@ set -ex
 echo "Go visit https://brew.sh"
 
 which -s brew
-if [[ $? != 0 ]] ; then
+if [[ $? != 0 ]] ;
+then
     # Install Homebrew
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
