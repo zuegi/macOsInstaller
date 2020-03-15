@@ -60,3 +60,6 @@ ACCEPT_EULA=y brew install msodbcsql mssql-tools
 echo "# .zshrc file" > ~/.zshrc
 echo "export PATH=/usr/local/sbin:\$PATH" >> ~/.zshrc
 
+# Install sdkman
+# see https://sdkman.io/install
+curl -s "https://get.sdkman.io" | bash
