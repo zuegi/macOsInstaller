@@ -2,6 +2,9 @@
 Making life easier. No more trawling download pages, extracting archives, 
 messing with _HOME and PATH environment variables.
 
+## Not able to add previous local installed jdk
+Even though I was not able to add my previous installed java (with brew) I will use sdkman
+
 ##Installing and Switching versions with SDKMAN
 
 SDKMAN is a bit different and handles both the install and the switching. SDKMAN also places the installed JDK's into its own directory tree, which is typically ~/.sdkman/candidates/java. SDKMAN allows setting a global default version, and a version specific to the current shell.
