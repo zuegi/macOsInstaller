@@ -30,7 +30,7 @@ CASKS=(
 	dbvisualizer
 )
 echo "Installing cask apps..."
-brew cask install ${CASKS[@]}
+brew install ${CASKS[@]}
 
 
 # Dev Tools
